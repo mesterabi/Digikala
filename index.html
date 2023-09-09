@@ -1,15 +1,246 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="fa" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>فروشگاه اینترنتی دیجی کالا</title>
+    <link rel="shortcut icon" href="./Images/favicon.png" type="image/png">
     <link rel="stylesheet" href="./Styles/main.css" type="text/css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 </head>
 
 <body>
+    <!-- header start -->
+    <header>
+        <!-- top start -->
+        <div class="top">
+            <div class="search-container">
+                <div class="logo">
+                    <a href="https://digikala.com">
+                        <img src="./Images/logo.svg" alt="digikala-logo">
+                    </a>
+                </div>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="جستجو">
+                </div>
+            </div>
+            <div class="user-info">
+                <div class="login">
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-right-to-bracket fa-rotate-180 "></i>
+                        <span>ورود | ثبت نام</span>
+                    </a>
+                </div>
+                <div class="vline"></div>
+                <div class="cart">
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping fa-flip-horizontal fa-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- top end -->
+        <nav>
+            <!-- menu start -->
+            <div class="menu">
+                <ul>
+                    <li class="megamenu">
+                        <a href="#">
+                            <span><i class="fa-solid fa-bars"></i></span>
+                            دسته بندی کالاها
+                        </a>
+                        <div class="vline"></div>
+                        <div class="submenu-bg">
+                            <div class="submenu-container">
+                                <div class="sidemenu">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <span><i class="fa-solid fa-mobile-screen-button"></i></span>
+                                                موبایل
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span><i class="fa-solid fa-laptop"></i></span>
+                                                کالای دیجیتال
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span><i class="fa-solid fa-couch"></i></span>
+                                                خانه و آشپزخانه
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span><i class="fa-solid fa-shirt"></i></span>
+                                                مد و پوشاک
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span><i class="fa-solid fa-basket-shopping"></i></span>
+                                                کالاهای سوپرمارکتی
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span><i class="fa-solid fa-pen-ruler"></i></span>
+                                                کتاب،لوازم التحریر و هنر
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span><i class="fa-regular fa-face-grin-tears"></i></span>
+                                                اسباب بازی،کودک و نوزاد
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span><i class="fa-solid fa-heart-circle-check"></i></span>
+                                                زیبایی و سلامت
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span><i class="fa-solid fa-campground"></i></span>
+                                                ورزش و سفر
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span><i class="fa-solid fa-wrench"></i></span>
+                                                ابزارآلات و تجهیزات
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span><i class="fa-solid fa-car"></i></span>
+                                                خودرو و موتورسیکلت
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span><i class="fa-solid fa-seedling"></i></span>
+                                                محصولات بومی و محلی
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mainmenu"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa-solid fa-percent"></i></span>
+                            شگفت انگیزها
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa-solid fa-basket-shopping"></i></span>
+                            سوپرمارکت
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa-regular fa-credit-card"></i></span>
+                            کارت هدیه
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa-solid fa-fire-flame-curved"></i></span>
+                            پرفروش ترین ها
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa-solid fa-tags"></i></span>
+                            تخفیف ها و پیشنهادها
+                        </a>
+                        <div class="vline"></div>
+                    </li>
+                    <li>
+                        <span></span>
+                        <a href="#">سوالی دارید؟</a>
+                    </li>
+                    <li>
+                        <span></span>
+                        <a href="#">در دیجی کالا بفروشید</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="location"></div>
+            <!-- menu end -->
+        </nav>
+    </header>
+    <!-- header end -->
+    <main>
+        <!-- wrapper star -->
+        <!-- story start -->
+        <div class="story-container">
+            <div class="stories">
+                <div class="story-item">
+                    <a href="">
+                        <img src="./Images/story-item-1.jpeg" alt="shoes">
+                        <p>انواع صندل</p>
+                    </a>
+                </div>
+                <div class="story-item">
+                    <a href="">
+                        <img src="./Images/story-item-2.jpeg" alt="body-splash">
+                        <p>بوی خوش</p>
+                    </a>
+                </div>
+                <div class="story-item">
+                    <a href="">
+                        <img src="./Images/story-item-3.jpeg" alt="tissue">
+                        <p>لطافت دست</p>
+                    </a>
+                </div>
+                <div class="story-item">
+                    <a href="">
+                        <img src="./Images/story-item-4.jpeg" alt="ielts">
+                        <p>یادگیری زبان</p>
+                    </a>
+                </div>
+                <div class="story-item">
+                    <a href="">
+                        <img src="./Images/story-item-5.jpeg" alt="perfume">
+                        <p>عطرهای اصل</p>
+                    </a>
+                </div>
+                <div class="story-item">
+                    <a href="">
+                        <img src="./Images/story-item-6.jpeg" alt="stationery">
+                        <p>لوازم تحریر</p>
+                    </a>
+                </div>
+                <div class="story-item">
+                    <a href="">
+                        <img src="./Images/story-item-7.jpeg" alt="knapsack">
+                        <p>تخفیف ویژه</p>
+                    </a>
+                </div>
+                <div class="story-item">
+                    <a href="">
+                        <img src="./Images/story-item-8.jpeg" alt="trip">
+                        <p>وقت سفر</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- story end -->
+
+        <!-- first swiper start -->
+
+        <!-- first swiper end -->
+        <!-- wrapper end -->
+    </main>
 
 </body>
 
