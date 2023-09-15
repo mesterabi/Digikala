@@ -3,11 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root {
-  --font-color-light: #5a5c7a;
-  --font-color-dark: #3f4064;
-  /* banner */
-}
 header {
   width: 100%;
   height: 168px;
@@ -29,10 +24,10 @@ header > div.top {
   width: inherit;
   display: inline-block;
   line-height: 68px;
-  padding-right: 20px;
+  padding-right: 12px;
 }
 header > div.top > div.search-container {
-  width: 87%;
+  width: 86%;
   height: inherit;
   display: inline-block;
   line-height: 67px;
@@ -56,6 +51,9 @@ header > div.top > div.search-container > div.search {
   width: 600px;
   height: 30px;
   display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 header > div.top > div.search-container > div.search > input#search {
   width: inherit;
@@ -64,18 +62,28 @@ header > div.top > div.search-container > div.search > input#search {
   border-radius: 7px;
   border: none;
   background-color: #f1f2f4;
-  padding-right: 20px;
+  padding-right: 35px;
+}
+header > div.top > div.search-container > div.search > span {
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: grey;
+  position: absolute;
+  right: 0;
 }
 /* login and cart */
 header > div.top > div.user-info {
-  width: 13%;
+  width: 14%;
   height: inherit;
   display: inline-block;
   line-height: 67px;
 }
 header > div.top > div.user-info > div.login {
   display: inline-block;
-  width: 120px;
+  width: 135px;
   height: 40px;
   border: solid 1px #e0e0e6;
   border-radius: 7px;
@@ -90,14 +98,11 @@ header > div.top > div.user-info > div.login > a {
   text-decoration: none;
   line-height: 40px;
   text-align: center;
+  font-weight: bold;
 }
-header div.vline {
-  display: inline-block;
-  border-right: 1px #e0e0e6 solid;
-  height: 38%;
-  position: relative;
-  top: 5px;
-  left: -10px;
+header > div.top > div.user-info > div.vline {
+  left: -12px;
+  top: 10px;
 }
 header > div.top > div.user-info > div.cart {
   width: auto;
@@ -158,30 +163,38 @@ header > nav > div.menu > ul li a {
   transition: 300ms;
   padding: 0 10px;
 }
+header > nav > div.menu > ul > li > a:hover {
+  border-bottom: 2px solid red;
+}
 header > nav > div.menu > ul > li.megamenu > a {
   font-size: 0.92rem;
   font-weight: bold;
 }
-
+header div.vline {
+  display: inline-block;
+  border-right: 1px #e0e0e6 solid;
+  height: 38%;
+  position: relative;
+  top: 5px;
+}
 header > nav > div.menu > ul > li > div.submenu-bg {
   width: 100vw;
-  height: calc(100vh - 108px);
+  height: calc(100vh - 168px);
   position: absolute;
   top: 168px;
   left: 0;
-  /* display: none; */
-  border-bottom-right-radius: 7px;
-  border-bottom-left-radius: 7px;
+  display: none;
   background-color: rgba(63, 64, 100, 0.41);
   z-index: 50;
   overflow: hidden;
 }
 header > nav > div.menu > ul > li > div.submenu-bg > div.submenu-container {
   width: 80vw;
-  height: calc(96vh - 108px);
+  height: calc(96vh - 168px);
   position: absolute;
   top: 0;
-  right: 2.5vw;
+  right: 1vw;
+  border-bottom-left-radius: 7px;
 }
 header > nav > div.menu > ul > li:hover > div.submenu-bg {
   display: block;
@@ -298,7 +311,7 @@ header
 /* location */
 header > nav > div.location {
   display: inline-block;
-  width: 13%;
+  width: 12%;
   height: 40px;
   margin-right: -4px;
   vertical-align: top;
@@ -317,10 +330,13 @@ header > nav > div.location > a {
 header > nav > div.location > a > span {
   display: inline-block;
   width: 20px;
-  height: 25px;
-  line-height: 25px;
+  height: 40px;
+  line-height: 40px;
   text-align: center;
 }
 header > nav > div.location > a i {
-  font-size: 20px;
+  font-size: 15px;
+  width: inherit;
+  height: inherit;
+  line-height: 40px;
 }
