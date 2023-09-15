@@ -41,3 +41,23 @@ main > div.story-container > div.stories > div.story-item > a > p {
   font-weight: bold;
   color: #333333;
 }
+main>div.support{
+  width: 50px;
+  height: 50px;
+  background-color: var(--themered);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 68;
+  margin: 50px;
+  border-radius: 50%;
+}
+main>div.support>span{
+  width: inherit;
+  height: inherit;
+  font-size: 25px;
+  color: whitesmoke;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
