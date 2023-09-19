@@ -1,5 +1,3 @@
-@import url(./Swiper/swiper.css);
-
 main > div.story-container {
   width: 100%;
   height: 150px;
@@ -51,6 +49,7 @@ main > div.support {
   z-index: 68;
   margin: 50px;
   border-radius: 50%;
+  cursor: pointer;
 }
 main > div.support > span {
   width: inherit;
@@ -62,60 +61,64 @@ main > div.support > span {
   top: 12px;
 }
 main > div.body-container {
-  width: 80%;
+  width: 90%;
   padding: 0 16px;
   margin: 0 auto;
 }
 main > div.body-container > div.service-container {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  margin-top: 24px;
+  text-align: center;
   padding: 8px 12px;
-  background-color: antiquewhite;
 }
-main > div.body-container > div.service-container > div.services {
+main > div.body-container > div.service-container > div.service-item {
+  display: inline-block;
+  width: 12%;
+  vertical-align: center;
+}
+main
+  > div.body-container
+  > div.service-container
+  > div.service-item
+  > a
+  > div.more {
+  display: inline-block;
+  position: relative;
+  width: 54px;
+  height: 54px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #e0e0e2;
+}
+main
+  > div.body-container
+  > div.service-container
+  > div.service-item
+  > a
+  > div.more
+  > i {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 26px;
+  color: #a1a3a8;
+}
+main > div.body-container > div.service-container > div.service-item > a {
   display: inline-block;
   width: 100%;
-}
-main
-  > div.body-container
-  > div.service-container
-  > div.serivces
-  > div.service-item {
-  display: inline-block;
-}
-main
-  > div.body-container
-  > div.service-container
-  > div.serivces
-  > div.service-item
-  > a {
-  display: inline-block;
-  width: 75px;
   height: auto;
   text-align: center;
   text-decoration: none;
 }
-main
-  > div.body-container
-  > div.service-container
-  > div.services
-  > div.service-item
-  > a
-  > img {
-  width: 52px;
-  height: 52px;
+main > div.body-container > div.service-container > div.service-item > a > img {
+  width: 60px;
+  height: 60px;
   display: inline-block;
   padding: 4px;
   margin: 0 auto;
 }
-main
-  > div.body-container
-  > div.service-container
-  > div.services
-  > div.service-item
-  > a
-  > p {
-  width: auto;
+main > div.body-container > div.service-container > div.service-item > a > p {
+  width: inherit;
   position: relative;
   top: -10px;
   color: #333333;
