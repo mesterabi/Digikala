@@ -8,9 +8,10 @@
   line-height: 2.17;
 }
 :root {
-  --font-color-light: #5a5c7a;
-  --font-color-dark: #3f4064;
+  --font-color-light: #62666d;
+  --font-color-dark: #424750;
   --themered: #EF4056;
+  --lowopacity: rgba(63, 64, 100, 0.41);
   /* banner */
 }
 ::-webkit-scrollbar{
