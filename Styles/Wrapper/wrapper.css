@@ -147,7 +147,7 @@ main > div.body-container > div.supermarket-container > a {
   border-radius: 16px;
   display: inline-flex;
   flex-flow: row nowrap;
-  align-items: flex-start;
+  align-content: flex-start;
   justify-content: space-between;
 }
 main > div.body-container > div.supermarket-container > a > div.market-bgcolor {
@@ -171,7 +171,7 @@ main
   > div.supermarket-container
   > a
   > div.supermarket-start {
-  width: 40%;
+  width: 100%;
   height: 110px;
   display: inline-flex;
   flex-flow: row nowrap;
@@ -194,4 +194,90 @@ main
   font-weight: bold;
   color: white;
 }
+main
+  > div.body-container
+  > div.supermarket-container
+  > a
+  > div.supermarket-start
+  > div.supermarket-items {
+  width: 60%;
+  height: 110px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+main
+  > div.body-container
+  > div.supermarket-container
+  > a
+  > div.supermarket-start
+  > div.supermarket-items
+  > div.space {
+  width: 100px;
+}
+main
+  > div.body-container
+  > div.supermarket-container
+  > a
+  > div.supermarket-start
+  > div.supermarket-items
+  > div {
+  width: 74px;
+  height: 74px;
+  margin: 0px 0px 16px 8px;
+  padding: 8px;
+  position: relative;
+}
+main
+  > div.body-container
+  > div.supermarket-container
+  > a
+  > div.supermarket-start
+  > div.supermarket-items
+  > div
+  > img {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+}
+main
+  > div.body-container
+  > div.supermarket-container
+  > a
+  > div.supermarket-start
+  > div.supermarket-items
+  > div
+  > div.discount {
+  width: 34px;
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+  padding: 0 4px;
+  border-radius: 16px;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: #ef394e;
+  position: absolute;
+  top: 65px;
+}
+main
+  > div.body-container
+  > div.supermarket-container
+  > a
+  > div.supermarket-start
+  > div.supermarket-items
+  > div.supermarket-more {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: white;
+  padding: 12px 20px;
+  margin-right: 10px;
+  margin-top: 20px;
+  color: #39ae00;
+  font-weight: bold;
+}
+
 /* supermarket end */
