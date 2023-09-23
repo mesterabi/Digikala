@@ -279,8 +279,8 @@ main
   color: #39ae00;
   font-weight: bold;
 }
-
 /* supermarket end */
+
 /* banners start */
 main > div.body-container > div.banner-container {
   display: flex;
@@ -288,20 +288,87 @@ main > div.body-container > div.banner-container {
   justify-content: space-between;
   margin-top: 24px;
   width: 100%;
-  height: 242px;
+  height: auto;
 }
-main > div.body-container > div.banner-container >a {
+main > div.body-container > div.banner-container > a {
   display: inline-block;
   height: inherit;
 }
-main > div.body-container > div.banner-container >a > div.banner-item{
+main > div.body-container > div.banner-container > a > div.banner-item {
   width: auto;
   height: inherit;
 }
-main > div.body-container > div.banner-container >a > div.banner-item>img{
+main > div.body-container > div.banner-container > a > div.banner-item > img {
   width: inherit;
   height: 242px;
   object-fit: contain;
   border-radius: 16px;
 }
 /* banners end */
+
+/* categories start */
+main > div.body-container > div.category-container {
+  width: 100%;
+  height: 436px;
+  padding: 16px;
+  padding-bottom: 40px;
+  margin-top: 24px;
+}
+main > div.body-container > div.category-container > div.category-title {
+  margin-bottom: 36px;
+  text-align: center;
+}
+main > div.body-container > div.category-container > div.category-title > p {
+  font-size: 20px;
+}
+main > div.body-container > div.category-container > div.category-items {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+main
+  > div.body-container
+  > div.category-container
+  > div.category-items
+  > div.item {
+  display: inline-block;
+  width: 186px;
+  height: 134px;
+  text-align: center;
+}
+main
+  > div.body-container
+  > div.category-container
+  > div.category-items
+  > div.item
+  > a {
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  text-decoration: none;
+}
+main
+  > div.body-container
+  > div.category-container
+  > div.category-items
+  > div.item
+  > a
+  > img {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+}
+main
+  > div.body-container
+  > div.category-container
+  > div.category-items
+  > div.item
+  > a
+  > p {
+    font-weight: bold;
+    color: var(--font-color-dark);
+  }
+/* categories end */
