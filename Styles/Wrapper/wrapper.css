@@ -281,3 +281,27 @@ main
 }
 
 /* supermarket end */
+/* banners start */
+main > div.body-container > div.banner-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 24px;
+  width: 100%;
+  height: 242px;
+}
+main > div.body-container > div.banner-container >a {
+  display: inline-block;
+  height: inherit;
+}
+main > div.body-container > div.banner-container >a > div.banner-item{
+  width: auto;
+  height: inherit;
+}
+main > div.body-container > div.banner-container >a > div.banner-item>img{
+  width: inherit;
+  height: 242px;
+  object-fit: contain;
+  border-radius: 16px;
+}
+/* banners end */
