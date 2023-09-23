@@ -368,13 +368,13 @@ main
   > div.item
   > a
   > p {
-    font-weight: bold;
-    color: var(--font-color-dark);
-  }
+  font-weight: bold;
+  color: var(--font-color-dark);
+}
 /* categories end */
 
 /* discounts start */
-main>div.body-container>div.discount-container{
+main > div.body-container > div.discount-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -383,20 +383,137 @@ main>div.body-container>div.discount-container{
   height: auto;
   margin-top: 24px;
 }
-main>div.body-container>div.discount-container>div.discount-item{
+main > div.body-container > div.discount-container > div.discount-item {
   display: inline-block;
   width: auto;
   height: inherit;
 }
-main>div.body-container>div.discount-container>div.discount-item>a{
+main > div.body-container > div.discount-container > div.discount-item > a {
   display: inline-block;
   width: 100%;
   height: 100%;
 }
-main>div.body-container>div.discount-container>div.discount-item>a>img{
+main
+  > div.body-container
+  > div.discount-container
+  > div.discount-item
+  > a
+  > img {
   width: 660px;
   height: 264px;
   border-radius: 16px;
   object-fit: contain;
 }
 /* discounts end */
+
+/* recommend start */
+main > div.body-container > div.recommend-container {
+  width: 100%;
+  height: auto;
+  margin-top: 24px;
+}
+main > div.body-container > div.recommend-container > div.recommend-title {
+  padding: 16px;
+  text-align: center;
+}
+main > div.body-container > div.recommend-container > div.recommend-title > p {
+  font-size: 20px;
+}
+main > div.body-container > div.recommend-container > div.item-container {
+  width: 100%;
+  height: auto;
+  margin-top: 8px;
+  border: solid 0.8px var(--border);
+  border-radius: 16px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+main
+  > div.body-container
+  > div.recommend-container
+  > div.item-container
+  > div.recommend-items {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+main
+  > div.body-container
+  > div.recommend-container
+  > div.item-container
+  > div.recommend-items
+  > a {
+  display: inline-block;
+  width: 190px;
+  height: 154px;
+  text-decoration: none;
+}
+main
+  > div.body-container
+  > div.recommend-container
+  > div.item-container
+  > div.recommend-items
+  > a
+  > div.item {
+  width: 100%;
+  height: 100%;
+  padding: 16px 4px;
+  border-left: solid 0.8px var(--border);
+  border-bottom: solid 0.8px var(--border);
+}
+main
+  > div.body-container
+  > div.recommend-container
+  > div.item-container
+  > div.recommend-items.second-row
+  > a
+  > div.item {
+  border-bottom: none;
+}
+main
+  > div.body-container
+  > div.recommend-container
+  > div.item-container
+  > div.recommend-items
+  > a
+  > div.item
+  > div.round {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  padding: 12px;
+  background-color: #f0f0f1;
+  margin: 0 auto;
+}
+main
+  > div.body-container
+  > div.recommend-container
+  > div.item-container
+  > div.recommend-items
+  > a
+  > div.item
+  > div.round
+  > img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+main
+  > div.body-container
+  > div.recommend-container
+  > div.item-container
+  > div.recommend-items
+  > a
+  > div.item
+  > p {
+  text-align: center;
+  height: 30px;
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--font-color-dark);
+}
+
+/* recommend end */

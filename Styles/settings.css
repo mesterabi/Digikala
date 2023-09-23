@@ -10,6 +10,7 @@
 :root {
   --font-color-light: #62666d;
   --font-color-dark: #424750;
+  --border: #e0e0e2;
   --themered: #EF4056;
   --lowopacity: rgba(63, 64, 100, 0.41);
   /* banner */
