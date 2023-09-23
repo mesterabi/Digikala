@@ -517,3 +517,79 @@ main
 }
 
 /* recommend end */
+
+/* brands start */
+main > div.body-container > div.brand-container {
+  width: 100%;
+  height: 224px;
+  margin-top: 24px;
+  border: solid 0.8px var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+}
+main > div.body-container > div.brand-container > div.brand-title {
+  padding: 16px;
+  text-align: center;
+}
+main > div.body-container > div.brand-container > div.brand-title > p {
+  font-size: 20px;
+  display: inline-block;
+}
+main > div.body-container > div.brand-container > div.brand-title > span > i {
+  color: #f9bc00;
+  font-size: 20px;
+  margin: 5px;
+}
+main > div.body-container > div.brand-container > div.brand-swiper {
+  width: 100%;
+  height: 100%;
+}
+main
+  > div.body-container
+  > div.brand-container
+  > div.brand-swiper
+  > div.swiper-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 118px;
+}
+main
+  > div.body-container
+  > div.brand-container
+  > div.brand-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide {
+  width: 142px;
+  height: 100%;
+  position: relative;
+  font-size: 18px;
+  border-left: solid 1px var(--border);
+  /* background: #fff; */
+}
+main
+  > div.body-container
+  > div.brand-container
+  > div.brand-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a {
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  padding: 4px 16px;
+}
+main
+  > div.body-container
+  > div.brand-container
+  > div.brand-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  img {
+  display: block;
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+}
+/* brands end */

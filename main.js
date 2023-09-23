@@ -33,3 +33,15 @@ var swiper = new Swiper(".secondSwiper", {
   },
 });
 //second swiper end
+// barnds swiper start
+var swiper = new Swiper(".brand-swiper", {
+  slidesPerView: 9.5,
+  centeredSlides: false,
+  spaceBetween: 0,
+  grabCursor: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+// brands swiper end
