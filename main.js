@@ -39,9 +39,9 @@ var swiper = new Swiper(".brand-swiper", {
   centeredSlides: false,
   spaceBetween: 0,
   grabCursor: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   clickable: true,
+  // },
 });
 // brands swiper end
