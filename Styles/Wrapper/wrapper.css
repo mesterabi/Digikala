@@ -1254,5 +1254,78 @@ main
   justify-content: flex-end;
   padding-left: 20px;
 }
-
 /* selected sale end */
+
+/* digikala mag start */
+main > div.body-container > div.mag-container {
+  width: 100%;
+  height: 365px;
+  margin-top: 24px;
+  padding-bottom: 20px;
+}
+main > div.body-container > .mag-container > .mag-title {
+  width: 100%;
+  height: 65px;
+  padding: 16px 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+main > div.body-container > div.mag-container > .mag-title > p.title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--font-color-title);
+}
+main > div.body-container > div.mag-container > div.mag-title > p.more {
+  color: #19bfd3;
+}
+main > div.body-container > div.mag-container > div.mag-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+main > div.body-container > div.mag-container > div.mag-items > a > div.item {
+  /* width: 325px;
+  height: 280px; */
+  border: solid 0.8px var(--border);
+  border-radius: 16px;
+}
+main > div.body-container > div.mag-container > div.mag-items > a {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-flow: column wrap;
+  text-decoration: none;
+}
+main
+  > div.body-container
+  > div.mag-container
+  > div.mag-items
+  > a
+  > div.item
+  > img {
+  width: 323px;
+  height: 200px;
+  object-fit: cover;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+main
+  > div.body-container
+  > div.mag-container
+  > div.mag-items
+  > a
+  > div.item
+  > div.description {
+  width: 290px;
+  height: 52px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  padding: 0 16px;
+  color: var(--font-color-title);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+/* digikala mag end */
