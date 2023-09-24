@@ -648,3 +648,50 @@ main>div.body-container>div.product-container>div.product-col>div.watch-more{
   padding: 8px;
 }
 /* first products end */
+
+/* digiplus start */
+main>div.body-container>div.digiplus-container{
+  width: 100%;
+  height: 387px;
+  padding: 16px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border-radius: 16px;
+  background-color: #941b80;
+  margin-top: 24px;
+}
+main>div.body-container>div.digiplus-container>div.digiplus-starter{
+width: 35%;
+padding-top: 24px;
+margin-left: 12px;
+background: url(../../Images/digiplus-bg.png) no-repeat center bottom;
+background-size: 372px 279px;
+
+}
+main>div.body-container>div.digiplus-container>div.digiplus-starter>div.header{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  margin-right: 24px;
+}
+main>div.body-container>div.digiplus-container>div.digiplus-starter>div.header p{
+  color: white;
+font-size: 14px;
+}
+main>div.body-container>div.digiplus-container>div.digiplus-starter>div.header i{
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+main>div.body-container>div.digiplus-container>div.digiplus-starter>div.header>a{
+  display: block;
+  width: 105px;
+  height: 35px;
+  padding: 4px 16px;
+  margin-top: 12px;
+  border: solid 0.8px white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+/* digiplus end */
