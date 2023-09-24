@@ -950,8 +950,9 @@ main
   > div.bestseller-title
   > p.title {
   display: inline-block;
+  margin: 0 auto;
   font-size: 20px;
-  color: var(--font-color-dark);
+  color: var(--font-color-title);
 }
 main
   > div.body-container
@@ -1127,7 +1128,7 @@ main
 }
 main > div.body-container > div.selected-container > div.selected-title > p {
   display: inline-block;
-  color: var(--font-color-dark);
+  color: var(--font-color-title);
   font-size: 20px;
   margin-right: 10px;
 }
