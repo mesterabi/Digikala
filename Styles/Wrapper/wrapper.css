@@ -399,7 +399,7 @@ main
   > div.discount-item
   > a
   > img {
-  width: 660px;
+  width: inherit;
   height: 264px;
   border-radius: 16px;
   object-fit: contain;
