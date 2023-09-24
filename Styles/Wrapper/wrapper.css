@@ -662,10 +662,10 @@ main>div.body-container>div.digiplus-container{
   margin-top: 24px;
 }
 main>div.body-container>div.digiplus-container>div.digiplus-starter{
-width: 35%;
+width: 34%;
 padding-top: 24px;
 margin-left: 12px;
-background: url(../../Images/digiplus-bg.png) no-repeat center bottom;
+background: url(../../Images/digiplus-bg.png) no-repeat left bottom;
 background-size: 372px 279px;
 
 }
@@ -693,5 +693,44 @@ main>div.body-container>div.digiplus-container>div.digiplus-starter>div.header>a
   border: solid 0.8px white;
   border-radius: 8px;
   text-decoration: none;
+}
+main>div.body-container>div.digiplus-container>div.digiplus-items{
+  width: 65%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 0 16px;
+}
+main>div.body-container>div.digiplus-container>div.digiplus-items>div.title{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+main>div.body-container>div.digiplus-container>div.digiplus-items>div.title>p.delivery{
+  font-size: 16px;
+  color: var(--font-color-dark);
+}
+main>div.body-container>div.digiplus-container>div.digiplus-items>div.title>p.delivery>i{
+  font-size: 20px;
+  margin-left: 5px;
+  color: #941b80;
+}
+main>div.body-container>div.digiplus-container>div.digiplus-items>div.title>p.all{
+  color: #941b80;
+}
+main>div.body-container>div.digiplus-container>div.digiplus-items>div.items{
+  display: grid;
+  justify-content: space-between;
+  align-content: space-between;
+  height: 280px;
+  padding-bottom: 20px;
+  grid-template-columns: repeat(6 , 116px);
+}
+main>div.body-container>div.digiplus-container>div.digiplus-items>div.items>a{
+  display: block;
+}
+main>div.body-container>div.digiplus-container>div.digiplus-items>div.items>a>img{
+  width: 116px;
+  height: 116px;
 }
 /* digiplus end */
