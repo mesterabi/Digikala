@@ -204,8 +204,8 @@ main
   height: 110px;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 main
   > div.body-container
@@ -222,12 +222,15 @@ main
   > a
   > div.supermarket-start
   > div.supermarket-items
-  > div {
+  > div
+  > div.round {
   width: 74px;
   height: 74px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
   margin: 0px 0px 16px 8px;
   padding: 8px;
-  position: relative;
 }
 main
   > div.body-container
@@ -236,10 +239,12 @@ main
   > div.supermarket-start
   > div.supermarket-items
   > div
+  > div.round
   > img {
-  width: 74px;
-  height: 74px;
+  width: 58px;
+  height: 58px;
   border-radius: 50%;
+  object-fit: cover;
 }
 main
   > div.body-container
@@ -260,7 +265,7 @@ main
   font-weight: bold;
   background-color: #ef394e;
   position: absolute;
-  top: 65px;
+  top: 75px;
 }
 main
   > div.body-container
@@ -278,6 +283,9 @@ main
   margin-top: 20px;
   color: #39ae00;
   font-weight: bold;
+  align-self: baseline;
+  position: relative;
+  top: 10px;
 }
 /* supermarket end */
 
@@ -1088,3 +1096,162 @@ main
 }
 
 /* best  seller end */
+
+/* selected sale start */
+main > div.body-container > div.selected-container {
+  width: 100%;
+  height: 812px;
+  border: solid 0.8px var(--border);
+  border-radius: 16px;
+  padding: 0 12px;
+  margin-top: 24px;
+}
+main > div.body-container > div.selected-container > div.selected-title {
+  width: 100%;
+  height: 76px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 16px 0;
+  margin-bottom: 8px;
+}
+main
+  > div.body-container
+  > div.selected-container
+  > div.selected-title
+  > span
+  > i {
+  font-size: 20px;
+  color: #ef394e;
+  line-height: 44px;
+}
+main > div.body-container > div.selected-container > div.selected-title > p {
+  display: inline-block;
+  color: var(--font-color-dark);
+  font-size: 20px;
+  margin-right: 10px;
+}
+main > div.body-container > div.selected-container > div.selected-items {
+  width: 100%;
+  height: 726px;
+  display: grid;
+  grid-template-columns: repeat(6, 218px);
+  grid-template-rows: repeat(3, 242px);
+}
+main
+  > div.body-container
+  > div.selected-container
+  > div.selected-items
+  > div.item {
+  padding: 12px 8px;
+  border-left: solid 0.8px var(--border);
+  border-bottom: solid 0.8px var(--border);
+}
+main
+  > div.body-container
+  > div.selected-container
+  > div.selected-items
+  > div.item
+  > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: var(--font-color-dark);
+}
+main
+  > div.body-container
+  > div.selected-container
+  > div.selected-items
+  > div.item
+  > a
+  > img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+main
+  > div.body-container
+  > div.selected-container
+  > div.selected-items
+  > div.item
+  > a
+  > div.price-container {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+main
+  > div.body-container
+  > div.selected-container
+  > div.selected-items
+  > div.item
+  > a
+  > div.price-container
+  > div.discount {
+  width: 34px;
+  height: 20px;
+  display: inline-block;
+  padding: 0 4px;
+  border-radius: 16px;
+  vertical-align: top;
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: #ef394e;
+}
+main
+  > div.body-container
+  > div.selected-container
+  > div.selected-items
+  > div.item
+  > a
+  > div.price-container
+  > div.price {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+}
+main
+  > div.body-container
+  > div.selected-container
+  > div.selected-items
+  > div.item
+  > a
+  > div.price-container
+  > div.price
+  > div.currency {
+  display: inline-block;
+  text-align: left;
+  top: 2px;
+}
+main
+  > div.body-container
+  > div.selected-container
+  > div.selected-items
+  > div.item
+  > a
+  > div.price-container
+  > div.price
+  > div.currency
+  > img {
+  width: 16px;
+  height: 16px;
+}
+main
+  > div.body-container
+  > div.selected-container
+  > div.selected-items
+  > div.item
+  > a
+  > div.pre-price {
+  color: #a1a3a8;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-left: 20px;
+}
+
+/* selected sale end */
