@@ -244,19 +244,101 @@ footer > div.footer-container > div.app > div.dl-links > div > a > img {
   object-fit: contain;
   border-radius: 4px;
 }
-footer > div.footer-container > div.app > div.dl-links > a.more{
-    display: block;
-    width: 44px;
-    height: 44px;
-    background-color: white;
-    border-radius: 4px;
-    margin-right: 16px;
+footer > div.footer-container > div.app > div.dl-links > a.more {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-color: white;
+  border-radius: 4px;
+  margin-right: 16px;
 }
-footer > div.footer-container > div.app > div.dl-links > a.more>div{
-    width: inherit;
-    height: inherit;
-    line-height: 44px;
-    text-align: center;
-    font-size: 30px;
-    color: #424650;
+footer > div.footer-container > div.app > div.dl-links > a.more > div {
+  width: inherit;
+  height: inherit;
+  line-height: 44px;
+  text-align: center;
+  font-size: 30px;
+  color: #424650;
+}
+
+/* about start */
+footer > div.footer-container > div.about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 32px 0;
+  border-top: solid 0.8px var(--border);
+  border-bottom: solid 0.8px var(--border);
+}
+footer > div.footer-container > div.about > div.article {
+  display: flex;
+  flex-direction: column;
+}
+footer > div.footer-container > div.about > div.article > div.text::before {
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 50%, #fff);
+  content: "";
+  height: inherit;
+  position: absolute;
+  width: inherit;
+}
+footer > div.footer-container > div.about > div.article > div.text {
+  width: 1074px;
+  height: 125px;
+  overflow: hidden;
+  margin-left: 40px;
+}
+footer > div.footer-container > div.about > div.article > div.text > h1 {
+  color: #62666d;
+  font-size: 20px;
+  font-weight: 600;
+}
+footer > div.footer-container > div.about > div.article > div.text > p {
+  /* text-align: justify; */
+  color: #81858b;
+  line-height: 2.5;
+}
+footer > div.footer-container > div.about > div.article > div.text > h2 {
+  color: #62666d;
+  font-size: 15px;
+  line-height: 3;
+}
+footer > div.footer-container > div.about > div.article > div.read-more-btn {
+  width: 92px;
+  height: 26px;
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 8px;
+  justify-content: space-around;
+  align-content: center;
+  color: #19bfd3;
+}
+footer > div.footer-container > div.about > div.article > div.read-more-btn >label{
+  cursor: pointer;
+}
+footer > div.footer-container > div.about >div.sign{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+footer > div.footer-container > div.about >div.sign>div.item{
+  width: 108.6px;
+  height: 108.6px;
+  margin-right: 8px;
+  padding: 16px;
+  border: solid 0.8px var(--border);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+footer > div.footer-container > div.about >div.sign>div.item>img{
+  width: 75px;
+  height: 75px;
+}
+footer > div.footer-container > div.about >div.sign>div.item>i{
+  font-size: 55px;
+  line-height: 80px;
+  color: #81858b;
 }

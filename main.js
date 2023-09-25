@@ -56,3 +56,18 @@ var swiper = new Swiper(".bestseller-swiper", {
   },
 });
 // best seller swiper end
+
+// footer read more start
+const parentContainer = document.querySelector(".text");
+
+parentContainer.addEventListener("click", (event) => {
+  const current = event.target;
+  const isReadMoreBtn = current.className.includes(".read-bore-btn");
+  if (!isReadMoreBtn) return;
+  const currentText = event.target.parentNode.querySelector(".read-more-text");
+  currentText.classList.toggle("read-more-text--show");
+  current.textContent = current.textContent.includes("مشاهده بیشتر")
+    ? "بستن"
+    : "مشاهده بیشتر";
+});
+// footer read more end
